@@ -1,0 +1,2325 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/root/CalendarIntegrationOWL"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/root/CalendarIntegrationOWL">
+    <Prefix name="" IRI="http://www.semanticweb.org/root/CalendarIntegrationOWL"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">09/12/2018</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This ontology is designed for Calendar Integration between three countries of Iran, Itlay and United States of America.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+        <Literal xml:lang="en">S. Mahed Mousavi, Giacomo Zara, Andrei Catalin Coman</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus_Trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportation_Event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Arrives_On"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Arrives_To"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Departs_From"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Departs_On"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Located_In"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Part_Of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Recognizes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isfahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isfahan_IFN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milano_MXP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewYork_JFK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fe0cf97_3fc0_4ea6_85ac_222aa96a53f8_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_483010d1_47ce_4807_b89a_90fe8da8ac2f_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Philadelphia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rasht"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roma_FCO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Siena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tehran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tehran_IKA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_States"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Washington"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Washington_IAD"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Airport"/>
+        <Class IRI="#Terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Station"/>
+        <Class IRI="#Terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Trip"/>
+        <Class IRI="#Transportation_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Trip"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Arrives_To"/>
+            <Class IRI="#Bus_Station"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Trip"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Departs_From"/>
+            <Class IRI="#Bus_Station"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Part_Of"/>
+            <Class IRI="#Country"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight"/>
+        <Class IRI="#Transportation_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Arrives_To"/>
+            <Class IRI="#Airport"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Departs_From"/>
+            <Class IRI="#Airport"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Located_In"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <Class IRI="#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terminal"/>
+        <Class IRI="#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transportation_Event"/>
+        <Class IRI="http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#Isfahan_IFN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#Milano_MXP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#NewYork_JFK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fe0cf97_3fc0_4ea6_85ac_222aa96a53f8_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_483010d1_47ce_4807_b89a_90fe8da8ac2f_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Trip"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Flight"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Philadelphia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Rasht"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#Roma_FCO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Siena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Tehran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#Tehran_IKA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#United_States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Washington"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Airport"/>
+        <NamedIndividual IRI="#Washington_IAD"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Isfahan"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#Isfahan_IFN"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Milano"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#Milano_MXP"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#NewYork_JFK"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fe0cf97_3fc0_4ea6_85ac_222aa96a53f8_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_483010d1_47ce_4807_b89a_90fe8da8ac2f_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fe0cf97_3fc0_4ea6_85ac_222aa96a53f8_BS"/>
+        <NamedIndividual IRI="#United_States"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS"/>
+        <NamedIndividual IRI="#Milano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <NamedIndividual IRI="#Tehran_IKA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <NamedIndividual IRI="#Roma_FCO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_483010d1_47ce_4807_b89a_90fe8da8ac2f_BS"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS"/>
+        <NamedIndividual IRI="#Siena"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <NamedIndividual IRI="#Isfahan_IFN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <NamedIndividual IRI="#Milano_MXP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <NamedIndividual IRI="#Milano_MXP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <NamedIndividual IRI="#Tehran_IKA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS"/>
+        <NamedIndividual IRI="#Isfahan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <NamedIndividual IRI="#Milano_MXP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <NamedIndividual IRI="#Washington_IAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS"/>
+        <NamedIndividual IRI="#Rasht"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <NamedIndividual IRI="#NewYork_JFK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_From"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <NamedIndividual IRI="#Roma_FCO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Departs_On"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Philadelphia"/>
+        <NamedIndividual IRI="#United_States"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Rasht"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Roma"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#Roma_FCO"/>
+        <NamedIndividual IRI="#Roma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Siena"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Tehran"/>
+        <NamedIndividual IRI="#Iran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#Tehran_IKA"/>
+        <NamedIndividual IRI="#Tehran"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Part_Of"/>
+        <NamedIndividual IRI="#Washington"/>
+        <NamedIndividual IRI="#United_States"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_In"/>
+        <NamedIndividual IRI="#Washington_IAD"/>
+        <NamedIndividual IRI="#Washington"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS"/>
+        <NamedIndividual IRI="#Iran"/>
+        <Literal>+03:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS"/>
+        <NamedIndividual IRI="#Italy"/>
+        <Literal>+01:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>29-10-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>07-08-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>Tuesday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>October</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>Martedi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>10-29-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>29-10-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>Se&apos;shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>Aban</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS"/>
+        <Literal>Ottobre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <Literal>09:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <Literal>08:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <Literal>08:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <Literal>08:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>04-07-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>13-04-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>Thursday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>July</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>Giovadi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>07-04-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>04-07-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>Panj&apos;shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>Tir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS"/>
+        <Literal>Luglio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <Literal>14:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <Literal>Tehran</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <Literal>11:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <Literal>15:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <Literal>14:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <Literal>16:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <Literal>Isfahan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <Literal>05:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <Literal>11:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <Literal>07:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS"/>
+        <Literal>Tehran</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <Literal>19:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <Literal>Isfahan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <Literal>11:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS"/>
+        <Literal>Rasht</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <Literal>13:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <Literal>Rasht</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <Literal>06:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS"/>
+        <Literal>Isfahan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>02-04-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>13-01-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>Tuesday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>April</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>Martedi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>04-02-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>02-04-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>Se&apos;shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>Farvardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS"/>
+        <Literal>Aprile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>22-06-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>01-04-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>Saturday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>June</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>Sabato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>06-22-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>22-06-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>Shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>Tir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS"/>
+        <Literal>Giugno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <Literal>15:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <Literal>Milano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <Literal>05:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS"/>
+        <Literal>Washington</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <Literal>10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <Literal>13:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS"/>
+        <Literal>Siena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <Literal>21:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <Literal>Siena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <Literal>17:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <Literal>19:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <Literal>NewYork</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <Literal>10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS"/>
+        <Literal>Roma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>02-06-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>12-03-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>Sunday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>June</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>Domenica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>06-02-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>02-06-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>Yek&apos;shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>Khordad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS"/>
+        <Literal>Giugno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>25-08-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>03-06-1398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>Sunday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>August</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>Domenica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>08-25-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>25-08-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>Yek&apos;shanbeh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>Shah&apos;rivar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS"/>
+        <Literal>Agosto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS"/>
+        <NamedIndividual IRI="#United_States"/>
+        <Literal>-06:00</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <Class IRI="#Transportation_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <Class IRI="#Transportation_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Departs_From"/>
+        <Class IRI="#Transportation_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Departs_On"/>
+        <Class IRI="#Transportation_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Located_In"/>
+        <Class IRI="#Terminal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Part_Of"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Recognizes"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Arrives_On"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Arrives_To"/>
+        <Class IRI="#Terminal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Departs_From"/>
+        <Class IRI="#Terminal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Departs_On"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Located_In"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Part_Of"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Recognizes"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS"/>
+        <Class IRI="#Transportation_Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS"/>
+        <Class IRI="#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS"/>
+        <Class IRI="#Transportation_Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS"/>
+        <Class IRI="#Transportation_Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS"/>
+        <Class IRI="#Transportation_Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event</IRI>
+        <Literal xml:lang="en">WordNet: Something that happens at a given place and time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event</IRI>
+        <Literal xml:lang="en">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event</IRI>
+        <Literal xml:lang="it">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event</IRI>
+        <Literal xml:lang="fa">رویداد</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>http://www.semanticweb.org/mattiafumagalli/ontologies/2018/9/CSK#Event</IRI>
+        <Literal xml:lang="en">Case</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="en">WordNet: An airfield equipped with control tower and hangars as well as accommodations for passengers and cargo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="it">Aeroporto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="en">Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="fa">فرودگاه</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#Airport</IRI>
+        <Literal xml:lang="en">Airdrome, Aerodrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal xml:lang="en">WordNet: A terminal that serves bus passengers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal xml:lang="it">Autostazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal xml:lang="en">Bus_Station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal xml:lang="fa">ترمینال اتوبوس</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal xml:lang="en">Bus Terminal, Bus Depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus_Trip</IRI>
+        <Literal xml:lang="en">WordNet: 
+Bus: A vehicle carrying many passengers
+Trip: A journey for some purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Trip</IRI>
+        <Literal xml:lang="en">Bus_Trip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Trip</IRI>
+        <Literal xml:lang="it">Viaggio in Autobus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bus_Trip</IRI>
+        <Literal xml:lang="fa">سفر با اتوبوس</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">WordNet: A large and densely populated urban area; may include several independent administrative districts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="it">Città</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="fa">شهر</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#City</IRI>
+        <Literal xml:lang="en">Metropolis, Urban Center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">WordNet: A politically organized body of people under a single government</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="it">Nazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="fa">کشور</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">State, Nation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flight</IRI>
+        <Literal xml:lang="en">WordNet: An instance of traveling by air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flight</IRI>
+        <Literal xml:lang="en">Flight</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flight</IRI>
+        <Literal xml:lang="it">Volo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Flight</IRI>
+        <Literal xml:lang="fa">پرواز</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#Flight</IRI>
+        <Literal xml:lang="en">Flying</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS</IRI>
+        <Literal xml:lang="en">WordNet: A district defined for administrative purposes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS</IRI>
+        <Literal xml:lang="en">Administrative_Division</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS</IRI>
+        <Literal xml:lang="it">Divisione Amministrativa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS</IRI>
+        <Literal xml:lang="fa">تقسیمات اداری</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#OWLClass_1480a1ce_4834_4429_a922_16aed7cc4f02_BS</IRI>
+        <Literal xml:lang="en">Administrative District, Territorial Division</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS</IRI>
+        <Literal xml:lang="en">WordNet: A structure that has a roof and walls and stands more or less permanently in one place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS</IRI>
+        <Literal xml:lang="en">Building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS</IRI>
+        <Literal xml:lang="it">Edificio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS</IRI>
+        <Literal xml:lang="fa">ساختمان</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#OWLClass_742b97c2_a01d_4069_bcf5_4aa9edd78cb1_BS</IRI>
+        <Literal xml:lang="en">Edifice, Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS</IRI>
+        <Literal xml:lang="en">WordNet: A general concept formed by extracting common features from specific examples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS</IRI>
+        <Literal xml:lang="en">Abstract_Kind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS</IRI>
+        <Literal xml:lang="it">Tipo Astratto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS</IRI>
+        <Literal xml:lang="fa">نوع انتزاعی</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#OWLClass_915eefea_1cf2_4e28_9dce_54f0f9a00926_BS</IRI>
+        <Literal xml:lang="en">Outline, Synopsis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS</IRI>
+        <Literal xml:lang="en">WordNet: A particular day specified as the time something happens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS</IRI>
+        <Literal xml:lang="it">Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS</IRI>
+        <Literal xml:lang="en">Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_baeebe99_9003_4911_a6fb_bbf5ab916054_BS</IRI>
+        <Literal xml:lang="fa">تاریخ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_09481f1b_6d01_4b93_960b_f2a4445a963f_BS</IRI>
+        <Literal>Utc_Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_0b2cb846_ac49_4603_9c8a_29617781cd00_BS</IRI>
+        <Literal>Persian_Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_17662643_2f26_4f08_903a_6d283e6f4a7a_BS</IRI>
+        <Literal>Unitedstates_Weekday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_3fd4248f_969d_4285_81fd_81d6dfc33e38_BS</IRI>
+        <Literal>Is_Persian_Weekend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_5f0053d1_289b_4d9f_b705_2f6562b64848_BS</IRI>
+        <Literal>Is_Persian_Holiday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_6a7735a4_86a0_4196_ac3c_0abaa6ad8492_BS</IRI>
+        <Literal>Unitedstates_Monthname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_78581420_8ac0_4c04_9558_e61d209b6c49_BS</IRI>
+        <Literal>Is_Italian_Holiday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_84ace5fa_e028_452f_8aba_343db6dd006d_BS</IRI>
+        <Literal>Italian_Weekday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_a09fa53b_60f3_4f77_9e9f_9a51ea9fce57_BS</IRI>
+        <Literal>Is_Unitedstates_Holiday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_a45d133d_da43_40d2_9ea7_bd651dba1fad_BS</IRI>
+        <Literal>Is_Unitedstates_Weekend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_bac549ac_477a_4b0b_9d6f_d0dd23fb44d2_BS</IRI>
+        <Literal>Utc_Timestamp_Arrival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_d39747a2_c11a_4175_a06c_ef004809c75b_BS</IRI>
+        <Literal>Unitedstates_Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_d634b2bc_eeef_41bb_b04e_e0bab592923c_BS</IRI>
+        <Literal>Is_Italian_Weekend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e0aa2647_395f_4588_841e_0259bff492f4_BS</IRI>
+        <Literal>Italian_Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e0c97f7d_f67b_4725_bdf4_ee27aeb394ed_BS</IRI>
+        <Literal>Persian_Weekday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS</IRI>
+        <Literal xml:lang="en">WordNet: The place designated as the end as of a race or journey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS</IRI>
+        <Literal>Destination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS</IRI>
+        <Literal xml:lang="it">Destinazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e381dd2e_f504_467e_84a6_2d8112600f64_BS</IRI>
+        <Literal xml:lang="fa">مقصد</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_e5c74ad5_93d0_4000_b482_b44520087e52_BS</IRI>
+        <Literal>Persian_Monthname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f1092b77_c6e6_4751_a53a_ef68b9526e7f_BS</IRI>
+        <Literal>Utc_Timestamp_Departure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS</IRI>
+        <Literal xml:lang="en">WordNet: The place where something begins, where it springs into being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS</IRI>
+        <Literal>Origin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS</IRI>
+        <Literal xml:lang="it">Origine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f14c3174_bb29_45c6_8cdc_6c2ca7858499_BS</IRI>
+        <Literal xml:lang="fa">مبدا</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f42a7e02_d347_41e1_9c30_9b3898337a14_BS</IRI>
+        <Literal>Utc_Offset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f78eca01_1d2f_41cc_a37e_c6f6d495c490_BS</IRI>
+        <Literal>Italian_Monthname</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_0573af0f_7721_41a5_9684_3bc607c6e342_BS</IRI>
+        <Literal>29-10-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_106a4d2c_3154_439f_b59f_0006c7bd7569_BS</IRI>
+        <Literal>Milano_MXP_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1cfcb5a1_fde6_4449_a86f_e31d3c7902fe_BS</IRI>
+        <Literal>Milano_Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1e93fbaa_2358_4a04_8c2a_24ebfd91a270_BS</IRI>
+        <Literal>Roma_Airport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1fe0cf97_3fc0_4ea6_85ac_222aa96a53f8_BS</IRI>
+        <Literal>NewYork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1ff67907_2952_4438_bb43_85ed41a509a0_BS</IRI>
+        <Literal>Roma_Center_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_217a6bac_6703_448c_a629_1cfc4ddc8bf4_BS</IRI>
+        <Literal>Milano_Center_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_2ad4b2d9_1d7a_4543_a3a1_a77e63be8d13_BS</IRI>
+        <Literal>04-07-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_2edcaf34_61de_4cd5_ac3a_ae2aacd9e980_BS</IRI>
+        <Literal>Roma_Tehran</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_483010d1_47ce_4807_b89a_90fe8da8ac2f_BS</IRI>
+        <Literal>Roma_FCO_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_55217647_b6bc_4c85_9286_96f5a8178795_BS</IRI>
+        <Literal>Milano_Center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_5ce034c6_e2f9_4960_a43a_6fa0fb538251_BS</IRI>
+        <Literal>Siena_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_5e164716_9e6d_4de5_86d7_9e1cbe3a9571_BS</IRI>
+        <Literal>Milano_Isfahan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7cf792b9_b60e_442a_8edc_14c4623a76e5_BS</IRI>
+        <Literal>Tehran_Milano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7e876297_175a_49ae_af85_bb60b30f5d7c_BS</IRI>
+        <Literal>Rasht_Isfahan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_90874e59_f5af_4cf3_836c_362e54d7751c_BS</IRI>
+        <Literal>Isfahan_Rasht</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_98d4ed02_e497_4810_bd86_620f3333f55c_BS</IRI>
+        <Literal>Isfahan_Center_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ad169a0a_c44f_46de_9628_60e2ee219be0_BS</IRI>
+        <Literal>02-04-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_b6d7122b_ce16_4007_8e3a_df063ff1937b_BS</IRI>
+        <Literal>22-06-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ba022dbe_d701_4b45_9013_c62575013e80_BS</IRI>
+        <Literal>Washington_Milano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c4bcd52c_d226_4c62_a23f_fdffcd57fe78_BS</IRI>
+        <Literal>Siena_Roma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_cb4298ce_fdd6_4785_92e1_23b65978b16b_BS</IRI>
+        <Literal>Rasht_BS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ee1126b5_ebad_4f5e_bd13_b7f4e9d5a7ad_BS</IRI>
+        <Literal>Roma_Siena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f364c799_224b_4cbf_bd29_6d2ea74cf08f_BS</IRI>
+        <Literal>Roma_NewYork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_fc7d0e0a_ef03_446b_bbb9_ef27bb7224a9_BS</IRI>
+        <Literal>02-06-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ff2e3e0d_ec8a_44a8_9a81_cab2394d10fb_BS</IRI>
+        <Literal>25-08-2019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Terminal</IRI>
+        <Literal xml:lang="en">WordNet: Station where transport vehicles load or unload passengers or goods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terminal</IRI>
+        <Literal xml:lang="en">Terminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terminal</IRI>
+        <Literal xml:lang="it">Terminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terminal</IRI>
+        <Literal xml:lang="fa">ترمینال</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synset"/>
+        <IRI>#Terminal</IRI>
+        <Literal xml:lang="en">Terminus, Depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Transportation_Event</IRI>
+        <Literal xml:lang="en">WordNet: A facility consisting of the means and equipment necessary for the movement of passengers or goods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Transportation_Event</IRI>
+        <Literal xml:lang="it">Evento di Trasporto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Transportation_Event</IRI>
+        <Literal xml:lang="en">Transportation_Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Transportation_Event</IRI>
+        <Literal xml:lang="fa">رویداد حمل و نقل</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
